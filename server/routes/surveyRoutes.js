@@ -30,8 +30,8 @@ module.exports = app =>{
       
 
 
-      place to send email
-      Great place to send an email!
+   //   place to send email
+   //   Great place to send an email!
     const mailer = new Mailer(survey, surveyTemplate(survey));
     //mailer.send();
     try {
